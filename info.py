@@ -42,7 +42,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make 
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tatiya:tatiya@yato.tda7q.mongodb.net/")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
