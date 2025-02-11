@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22645'))
-API_HASH = environ.get('API_HASH', '94a089020a2290fd29a41f18')
-BOT_TOKEN = environ.get('BOT_TOKEN', "0310745:AAEcOugP9x6GN8noxi4rZ7M8UF00sk")
+API_ID = int(environ.get('API_ID', '9163248'))
+API_HASH = environ.get('API_HASH', '18b27496cecfb3672046e2182b9a6c12')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7154891241:AAGS4Dhyqw3txPhST8fOCd7y-aZwBvwNf9w")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -30,12 +30,12 @@ CODE = (environ.get('CODE', 'https://envs.sh/Wdj.jpg'))
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001619818259').split()] #Channel id for auto indexing ( make sure bot is admin )
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195')) #Log channel id ( make sure bot is admin )
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001905367057')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001868871195')) # add premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '-1001572271892') #Channel / Group Id for force sub ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1139405017').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002389144132').split()] #Channel id for auto indexing ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002344874503')) #Log channel id ( make sure bot is admin )
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002344874503')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002344874503')) # add premium logs channel id
+auth_channel = environ.get('AUTH_CHANNEL', '-1002344874503') #Channel / Group Id for force sub ( make sure bot is admin )
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '') # support group id ( make sure bot is admin )
 reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make sure bot is admin ).
@@ -65,7 +65,7 @@ STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/'))
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 24)) # Add time in hours
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1001868871195')) #Log channel id ( make sure bot is admin )
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002344874503')) #Log channel id ( make sure bot is admin )
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_to_Download_7x/32') # How to open tutorial link for verification
 
 # Shortner 
